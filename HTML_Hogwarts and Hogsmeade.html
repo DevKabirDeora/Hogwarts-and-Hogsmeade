@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Hogwarts & Hogsmeade — The Official Wizarding Emporium. Shop authentic wands, robes, and magical artefacts. Take the Sorting Ceremony Quiz and discover your Hogwarts house.">
+  <meta name="keywords"
+    content="Hogwarts, Hogsmeade, Harry Potter, Wizarding World, Sorting Hat, Wands, Magical Merchandise">
+  <title>Hogwarts & Hogsmeade — The Wizarding Emporium</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700;900&family=IM+Fell+English:ital@0;1&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>  
+
+<body>
+
+  
+  <!-- ========== STARFIELD ========== -->
+  <div class="starfield"></div>
+
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="main-nav">
+    <a class="nav-logo" href="#home">
+      <span class="wand"></span> Hogwarts & Hogsmeade
+    </a>
+
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#houses">Houses</a></li>
+      <li><a href="#hogwarts-map">🗺️ 3D Map</a></li>
+      <li><a href="#categories">Collections</a></li>
+      <li><a href="#sorting-ceremony">⚡ Sorting Ceremony</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#login-modal">🔐 Login</a></li>
+      <li><a href="#signup-modal">📝 Sign Up</a></li>
+    </ul>
+
+    <a class="nav-cart" id="nav-cart" href="#shop">🧺 Cart (0)</a>
+  </nav>
+
+
+  <!-- ========== HERO SECTION ========== -->
+  <div class="hero" id="home">
+    <p class="hero-eyebrow">✦ The Official Wizarding Emporium ✦</p>
+    <h1>Enter the<br><span>Magical</span> World</h1>
+    <p class="hero-sub">Authentic artefacts, robes, and relics from across the wizarding realm — delivered to your
+      Muggle doorstep.</p>
+    <div class="hero-cta">
+      <a class="btn-primary" href="#shop">Browse the Shop</a>
+      <a class="btn-secondary" href="#sorting-ceremony">Discover Your House</a>
+    </div>
+    <!-- <div class="hero-scroll">SCROLL</div> -->
+  </div>
+
+
+  <!-- ========== HOUSES BANNER ========== -->
+  <div class="section-divider"><span>⚡</span></div>
+
+  <div class="houses reveal" id="houses">
+    <a class="house-card gryffindor" href="#sorting-ceremony">
+      <span class="house-crest">🦁</span>
+      <span class="house-name">Gryffindor</span>
+      <span class="house-motto">Brave · Daring · Chivalrous</span>
+    </a>
+    <a class="house-card hufflepuff" href="#sorting-ceremony">
+      <span class="house-crest">🦡</span>
+      <span class="house-name">Hufflepuff</span>
+      <span class="house-motto">Patient · Loyal · Hardworking</span>
+    </a>
+    <a class="house-card ravenclaw" href="#sorting-ceremony">
+      <span class="house-crest">🦅</span>
+      <span class="house-name">Ravenclaw</span>
+      <span class="house-motto">Wise · Witty · Sharp-minded</span>
+    </a>
+    <a class="house-card slytherin" href="#sorting-ceremony">
+      <span class="house-crest">🐍</span>
+      <span class="house-name">Slytherin</span>
+      <span class="house-motto">Cunning · Ambitious · Resourceful</span>
+    </a>
+  </div>
+
+  <div class="section-divider"><span>🌟</span></div>
+
+
+  <!-- ========== FEATURED PRODUCTS ========== -->
+  <section id="shop">
+    <div class="section-header reveal">
+      <span class="section-tag">Finest Wizarding Goods</span>
+      <h2 class="section-title">Featured Artefacts</h2>
+    </div>
+
+    <div class="products-grid">
+      <!-- Elder Wand Replica -->
+      <div class="product-card reveal">
+        <span class="product-badge">Bestseller</span>
+        <div class="product-img">🪄</div>
+        <div class="product-info">
+          <p class="product-category">Wands</p>
+          <h3 class="product-name">Elder Wand Replica</h3>
+          <p class="product-desc">A faithful reconstruction of the most powerful wand in existence.</p>
+          <div class="product-footer">
+            <div class="product-price">₹3,499<small>Free Owl Delivery</small></div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+          <a href="https://www.amazon.in/s?k=elder+wand+replica+harry+potter" target="_blank" class="amazon-link">🛍️ Buy on Amazon</a>
+        </div>
+      </div>
+
+      <!-- Marauder's Map -->
+      <div class="product-card reveal">
+        <div class="product-img">🗺️</div>
+        <div class="product-info">
+          <p class="product-category">Magical Maps</p>
+          <h3 class="product-name">Marauder's Map</h3>
+          <p class="product-desc">A complete replica of Hogwarts grounds that reveals all secret passages.</p>
+          <div class="product-footer">
+            <div class="product-price">₹4,532</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+          <a href="https://www.amazon.in/s?k=marauders+map+harry+potter" target="_blank" class="amazon-link">🛍️ Buy on Amazon</a>
+        </div>
+      </div>
+
+      <!-- Triwizard Cup -->
+      <div class="product-card reveal">
+        <span class="product-badge">New</span>
+        <div class="product-img">🏆</div>
+        <div class="product-info">
+          <p class="product-category">Collectibles</p>
+          <h3 class="product-name">Triwizard Cup</h3>
+          <p class="product-desc">A gilded trophy replica from the legendary Triwizard Tournament.</p>
+          <div class="product-footer">
+            <div class="product-price">₹4,999</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+          <a href="https://www.amazon.in/s?k=triwizard+cup+harry+potter" target="_blank" class="amazon-link">🛍️ Buy on Amazon</a>
+        </div>
+      </div>
+
+      <!-- House Scarves -->
+      <div class="product-card reveal">
+        <div class="product-img">🧣</div>
+        <div class="product-info">
+          <p class="product-category">Apparel</p>
+          <h3 class="product-name">House Scarf — All Houses</h3>
+          <p class="product-desc">Warm woollen scarves woven in authentic house colours. Show your allegiance with
+            pride.</p>
+          <div class="product-footer">
+            <div class="product-price">₹899</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+          <a href="https://www.amazon.in/s?k=harry+potter+house+scarf" target="_blank" class="amazon-link">🛍️ Buy on Amazon</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== RECOMMENDED FOR YOUR HOUSE (Hidden until quiz) ========== -->
+  <section id="recommended" class="recommended-section" style="display: none;">
+    <div class="section-header">
+      <span class="section-tag">Sorted Just For You</span>
+      <h2 class="section-title" id="rec-title">Recommended for Your House</h2>
+    </div>
+
+    <div class="products-grid" id="rec-products">
+
+      <!-- GRYFFINDOR ITEMS -->
+      <div class="product-card rec-item" data-house="Gryffindor" style="display:none;">
+        <span class="product-badge" style="background:#ae0001; color:#fff;">Gryffindor</span>
+        <div class="product-img">⚔️</div>
+        <div class="product-info">
+          <p class="product-category">Gryffindor Gear</p>
+          <h3 class="product-name">Sword of Gryffindor Replica</h3>
+          <p class="product-desc">A stunning replica of the legendary goblin-made sword. Only a true Gryffindor can
+            wield it.</p>
+          <div class="product-footer">
+            <div class="product-price">₹5,999</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card rec-item" data-house="Gryffindor" style="display:none;">
+        <div class="product-img">🧣</div>
+        <div class="product-info">
+          <p class="product-category">Gryffindor Gear</p>
+          <h3 class="product-name">Gryffindor Robe &amp; Scarf Set</h3>
+          <p class="product-desc">Premium crimson and gold robes with matching scarf. Show your bravery in style.</p>
+          <div class="product-footer">
+            <div class="product-price">₹2,499</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- SLYTHERIN ITEMS -->
+      <div class="product-card rec-item" data-house="Slytherin" style="display:none;">
+        <span class="product-badge" style="background:#1a472a; color:#fff;">Slytherin</span>
+        <div class="product-img">🐍</div>
+        <div class="product-info">
+          <p class="product-category">Slytherin Gear</p>
+          <h3 class="product-name">Slytherin Locket Horcrux</h3>
+          <p class="product-desc">A detailed replica of Salazar Slytherin's legendary locket. Wear it with ambition.</p>
+          <div class="product-footer">
+            <div class="product-price">₹3,299</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card rec-item" data-house="Slytherin" style="display:none;">
+        <div class="product-img">🪄</div>
+        <div class="product-info">
+          <p class="product-category">Slytherin Gear</p>
+          <h3 class="product-name">Draco Malfoy's Wand</h3>
+          <p class="product-desc">An elegant hawthorn wand replica. Perfect for those with cunning ambition.</p>
+          <div class="product-footer">
+            <div class="product-price">₹2,799</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- RAVENCLAW ITEMS -->
+      <div class="product-card rec-item" data-house="Ravenclaw" style="display:none;">
+        <span class="product-badge" style="background:#0e1a40; color:#fff;">Ravenclaw</span>
+        <div class="product-img">👑</div>
+        <div class="product-info">
+          <p class="product-category">Ravenclaw Gear</p>
+          <h3 class="product-name">Rowena's Lost Diadem</h3>
+          <p class="product-desc">A beautiful replica of Rowena Ravenclaw's diadem. Wit beyond measure is man's greatest
+            treasure.</p>
+          <div class="product-footer">
+            <div class="product-price">₹4,199</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card rec-item" data-house="Ravenclaw" style="display:none;">
+        <div class="product-img">📚</div>
+        <div class="product-info">
+          <p class="product-category">Ravenclaw Gear</p>
+          <h3 class="product-name">Advanced Spell Books Collection</h3>
+          <p class="product-desc">A curated set of rare magical texts for the intellectually curious wizard.</p>
+          <div class="product-footer">
+            <div class="product-price">₹1,899</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- HUFFLEPUFF ITEMS -->
+      <div class="product-card rec-item" data-house="Hufflepuff" style="display:none;">
+        <span class="product-badge" style="background:#eeba30; color:#0f172a;">Hufflepuff</span>
+        <div class="product-img">🌿</div>
+        <div class="product-info">
+          <p class="product-category">Hufflepuff Gear</p>
+          <h3 class="product-name">Herbology Starter Kit</h3>
+          <p class="product-desc">Grow your own magical plants! Includes Mandrake seeds, Dragon Dung Fertilizer &amp;
+            more.</p>
+          <div class="product-footer">
+            <div class="product-price">₹1,599</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card rec-item" data-house="Hufflepuff" style="display:none;">
+        <div class="product-img">☕</div>
+        <div class="product-info">
+          <p class="product-category">Hufflepuff Gear</p>
+          <h3 class="product-name">Hufflepuff Common Room Mug</h3>
+          <p class="product-desc">A cozy enchanted mug that keeps your Butterbeer warm. Loyalty in every sip.</p>
+          <div class="product-footer">
+            <div class="product-price">₹799</div>
+            <div class="qty-controls">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-count">0</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-btn">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========== OFFER BANNER ========== -->
+  <div class="offer-banner reveal">
+    <h2>⚡ Platform 9¾ Express Delivery ⚡</h2>
+    <p>Order before midnight and receive your parcel by owl post before the next full moon.</p>
+    <a class="btn-primary" href="#shop">Shop Now & Save</a>
+  </div>
+
+
+  <!-- ========== HOGWARTS 3D MAP ========== -->
+  <section id="hogwarts-map" class="map-section">
+    <div class="section-header reveal">
+      <span class="section-tag">Explore the Grounds</span>
+      <h2 class="section-title">Hogwarts 3D Map</h2>
+      <p class="map-subtitle">Drag to rotate · Scroll to zoom · Click locations below to learn more</p>
+    </div>
+
+    <!-- 3D Model Viewer — Sketchfab Embed API (free, no key needed) -->
+    <div class="map-container reveal">
+      <div class="sketchfab-embed-wrapper">
+        <iframe id="hogwarts-3d-viewer" title="Hogwarts 3D Castle Model" frameborder="0" allowfullscreen
+          mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+          src="https://sketchfab.com/models/70dcec840f8444dda2974aa6a9b049e2/embed?autostart=1&ui_theme=dark&ui_infos=0&ui_watermark_link=0&ui_watermark=0"></iframe>
+      </div>
+      <p class="map-credit">3D Model: "Hogwarts 3D" by Ju Designer on Sketchfab (CC BY)</p>
+    </div>
+
+    <!-- Location Info Cards — Click to learn about each location -->
+    <div class="map-locations reveal">
+      <h3 class="locations-title">📍 Key Locations</h3>
+      <div class="locations-grid">
+
+        <button class="location-btn" id="loc-great-hall" onclick="showLocationInfo('great-hall')">
+          <img src="images/locations/great-hall.png" alt="Great Hall" class="location-img">
+          🏰 Great Hall
+        </button>
+        <button class="location-btn" id="loc-astronomy" onclick="showLocationInfo('astronomy')">
+          <img src="images/locations/astronomy.png" alt="Astronomy Tower" class="location-img">
+          🔭 Astronomy Tower
+        </button>
+        <button class="location-btn" id="loc-quidditch" onclick="showLocationInfo('quidditch')">
+          <img src="images/locations/quidditch.png" alt="Quidditch Pitch" class="location-img">
+          🧹 Quidditch Pitch
+        </button>
+        <button class="location-btn" id="loc-library" onclick="showLocationInfo('library')">
+          <img src="images/locations/library.png" alt="Hogwarts Library" class="location-img">
+          📚 Library
+        </button>
+        <button class="location-btn" id="loc-dungeon" onclick="showLocationInfo('dungeon')">
+          <img src="images/locations/dungeon.png" alt="Dungeons" class="location-img">
+          🧪 Dungeons
+        </button>
+        <button class="location-btn" id="loc-forest" onclick="showLocationInfo('forest')">
+          <img src="images/locations/forest.png" alt="Forbidden Forest" class="location-img">
+          🌲 Forbidden Forest
+        </button>
+        <button class="location-btn" id="loc-lake" onclick="showLocationInfo('lake')">
+          <img src="images/locations/lake.png" alt="Black Lake" class="location-img">
+          🌊 Black Lake
+        </button>
+        <button class="location-btn" id="loc-hagrid" onclick="showLocationInfo('hagrid')">
+          <img src="images/locations/hagrid.png" alt="Hagrid's Hut" class="location-img">
+          🛖 Hagrid's Hut
+        </button>
+
+      </div>
+
+      <!-- Info Card — shows details when a location is clicked -->
+      <div class="location-info-card" id="location-info-card" style="display: none;">
+        <div class="info-card-header">
+          <span class="info-card-icon" id="info-icon"></span>
+          <h4 class="info-card-title" id="info-title"></h4>
+          <button class="info-close-btn" onclick="closeLocationInfo()">✕</button>
+        </div>
+        <img src="" alt="" id="info-image" class="info-card-image" style="display: none;">
+        <p class="info-card-text" id="info-text"></p>
+        <p class="info-card-fact" id="info-fact"></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CATEGORIES ========== -->
+  <section id="categories">
+    <div class="section-header reveal">
+      <span class="section-tag">By Category</span>
+      <h2 class="section-title">Explore Collections</h2>
+    </div>
+
+    <div class="categories-grid">
+      <a class="cat-card reveal" href="#shop">
+        <div class="cat-bg">🪄</div>
+        <div class="cat-content">
+          <span class="cat-label">Finest Collection</span>
+          <h3 class="cat-title">Wands & Staves</h3>
+        </div>
+      </a>
+      <a class="cat-card reveal" href="#shop">
+        <div class="cat-bg">🐍</div>
+        <div class="cat-content">
+          <span class="cat-label">House Merch</span>
+          <h3 class="cat-title">Slytherin</h3>
+        </div>
+      </a>
+      <a class="cat-card reveal" href="#shop">
+        <div class="cat-bg">🦅</div>
+        <div class="cat-content">
+          <span class="cat-label">House Merch</span>
+          <h3 class="cat-title">Ravenclaw</h3>
+        </div>
+      </a>
+      <a class="cat-card reveal" href="#shop">
+        <div class="cat-bg">🧣</div>
+        <div class="cat-content">
+          <span class="cat-label">Style & Apparel</span>
+          <h3 class="cat-title">Robes & Scarves</h3>
+        </div>
+      </a>
+      <a class="cat-card reveal" href="#shop">
+        <div class="cat-bg">✨</div>
+        <div class="cat-content">
+          <span class="cat-label">Rare Finds</span>
+          <h3 class="cat-title">Magical Artefacts</h3>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ========== SORTING CEREMONY ========== -->
+  <div id="sorting-ceremony" class="sorting-section">
+    <div class="quiz-card reveal">
+      <div class="quiz-header">
+        <h2>🧙 The Sorting Ceremony</h2>
+        <div class="quiz-castle-badge">
+          <span>🏰 HOGWARTS CASTLE 🏰</span>
+        </div>
+        <div class="user-greeting">
+          🧙 <span>Witch / Wizard</span> • the Sorting Hat sings for thee
+        </div>
+        <p style="margin-top: 0.8rem; font-size:0.85rem;">
+          <a href="#login-modal" style="color:#facc15;">Login</a> or
+          <a href="#signup-modal" style="color:#facc15;">Sign Up</a> to save your house (optional)
+        </p>
+      </div>
+
+      <form action="#" method="get" id="sorting-form">
+        <!-- Question 1 -->
+        <div class="question-item">
+          <h3>1. What quality do you value most?</h3>
+          <label class="option-label"><input type="radio" name="q1" value="G"> 🛡️ Bravery & Courage</label>
+          <label class="option-label"><input type="radio" name="q1" value="S"> 👑 Ambition & Cunning</label>
+          <label class="option-label"><input type="radio" name="q1" value="R"> 🧠 Intelligence & Wit</label>
+          <label class="option-label"><input type="radio" name="q1" value="H"> 💛 Loyalty & Patience</label>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-item">
+          <h3>2. What would you rather be known for?</h3>
+          <label class="option-label"><input type="radio" name="q2" value="G"> Daring & Nerve</label>
+          <label class="option-label"><input type="radio" name="q2" value="S"> Power & Prestige</label>
+          <label class="option-label"><input type="radio" name="q2" value="R"> Wisdom & Originality</label>
+          <label class="option-label"><input type="radio" name="q2" value="H"> Kindness & Fairness</label>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-item">
+          <h3>3. Which magical creature resonates with you?</h3>
+          <label class="option-label"><input type="radio" name="q3" value="G"> 🦁 Lion (Gryffindor)</label>
+          <label class="option-label"><input type="radio" name="q3" value="S"> 🐍 Serpent (Slytherin)</label>
+          <label class="option-label"><input type="radio" name="q3" value="R"> 🦅 Eagle (Ravenclaw)</label>
+          <label class="option-label"><input type="radio" name="q3" value="H"> 🦡 Badger (Hufflepuff)</label>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-item">
+          <h3>4. Pick a magical subject you excel at:</h3>
+          <label class="option-label"><input type="radio" name="q4" value="G"> Defense Against the Dark Arts</label>
+          <label class="option-label"><input type="radio" name="q4" value="S"> Potions & Dark Magic</label>
+          <label class="option-label"><input type="radio" name="q4" value="R"> Ancient Runes & Arithmancy</label>
+          <label class="option-label"><input type="radio" name="q4" value="H"> Herbology & Magizoology</label>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-item">
+          <h3>5. Your friends would describe you as:</h3>
+          <label class="option-label"><input type="radio" name="q5" value="G"> Fearless & Chivalrous</label>
+          <label class="option-label"><input type="radio" name="q5" value="S"> Resourceful & Determined</label>
+          <label class="option-label"><input type="radio" name="q5" value="R"> Curious & Inventive</label>
+          <label class="option-label"><input type="radio" name="q5" value="H"> Dependable & Warm-hearted</label>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submit-quiz">🧙 Submit Answers</button>
+      </form>
+
+      <div class="hogwarts-footer" style="text-align:center; margin-top:1rem;">
+        📜 "Help will always be given at Hogwarts to those who ask for it."
+        <br>
+        <a href="#home" class="back-link" style="color:#facc15;">Return to Great Hall</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========== NEWSLETTER ========== -->
+  <div class="newsletter reveal">
+    <h3>📜 The Daily Prophet Newsletter</h3>
+    <p>Receive exclusive offers, new arrivals, and wizarding world news by owl post every fortnight.</p>
+    <div class="newsletter-form">
+      <input type="email" id="newsletter-email" placeholder="Your owl address (email)…">
+      <button type="button" id="newsletter-btn">Subscribe</button>
+    </div>
+  </div>
+
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="about">
+    <div class="section-header reveal">
+      <span class="section-tag">From Our Customers</span>
+      <h2 class="section-title">Words from the Wizarding World</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">The Elder Wand replica is extraordinary — every detail is faithfully reproduced.</p>
+        <p class="testimonial-author">Neville L.</p>
+        <p class="testimonial-house">Gryffindor, Class of 1998</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">I purchased the Marauder's Map for my son and he refuses to let go of it.</p>
+        <p class="testimonial-author">Molly W.</p>
+        <p class="testimonial-house">Hogsmeade, Yorkshire</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★☆</div>
+        <p class="testimonial-text">The Slytherin robe quality is exceptional. Fast delivery via owl.</p>
+        <p class="testimonial-author">Draco M.</p>
+        <p class="testimonial-house">Slytherin, Malfoy Manor</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">⚡ Ollivanders & Co.</div>
+        <p class="footer-desc">The Wizarding World's premier merchant of magical merchandise since 382 B.C.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#shop">Wands</a></li>
+          <li><a href="#shop">Robes</a></li>
+          <li><a href="#shop">Books</a></li>
+          <li><a href="#shop">Artefacts</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#about">Authenticity</a></li>
+          <li><a href="#about">Owl Delivery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#about">Daily Prophet</a></li>
+          <li><a href="#about">Owl Post</a></li>
+          <li><a href="#about">Patronus Chat</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Ollivanders & Co. All Magical Rights Reserved.</span>
+      <span>🧙 "It is our choices that show what we truly are." — Dumbledore</span>
+    </div>
+  </footer>
+
+
+  <!-- ========== LOGIN MODAL ========== -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <div style="font-size: 2.5rem; color:#facc15;">🧙</div>
+      <h3>Welcome Back, Witch or Wizard</h3>
+      <form action="#" method="get" id="login-form">
+        <input type="text" placeholder="Magical Name" required id="login-name">
+        <input type="password" placeholder="Spellword" required id="login-password">
+        <div class="modal-buttons">
+          <button type="submit" class="btn-primary"
+            style="clip-path: none; border-radius: 40px; padding: 10px 24px;">Enter Hogwarts</button>
+          <a href="#" class="close-modal">Close</a>
+        </div>
+      </form>
+      <p style="font-size:0.7rem; margin-top:12px;">✨ Pure magic — no data stored ✨</p>
+    </div>
+  </div>
+
+
+  <!-- ========== SIGNUP MODAL ========== -->
+  <div id="signup-modal" class="modal">
+    <div class="modal-content">
+      <div style="font-size: 2.5rem; color:#facc15;">📜</div>
+      <h3>Create Your Legacy</h3>
+      <form action="#" method="get" id="signup-form">
+        <input type="text" placeholder="Choose Your Wizard Name" required id="signup-name">
+        <input type="password" placeholder="Create a Spellword" required id="signup-password">
+        <input type="email" placeholder="Owl Post (optional)" id="signup-email">
+        <div class="modal-buttons">
+          <button type="submit" class="btn-primary"
+            style="clip-path: none; border-radius: 40px; padding: 10px 24px;">Join the Order</button>
+          <a href="#" class="close-modal">Close</a>
+        </div>
+      </form>
+      <p style="font-size:0.7rem;">🪄 Your adventure begins here</p>
+    </div>
+  </div>
+
+
+  <!-- ========== BACK TO TOP BUTTON ========== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">⬆</button>
+
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
